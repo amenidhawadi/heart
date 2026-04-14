@@ -1,0 +1,105 @@
+# =====================
+# Fichiers Python
+# =====================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# =====================
+# Notebooks (fichiers temporaires Jupyter)
+# =====================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.checkpoints/
+
+# =====================
+# Données (NE PAS versionner le dataset médical)
+# =====================
+*.csv
+*.xlsx
+*.xls
+data/
+*.db
+*.sqlite
+
+# =====================
+# Modèles sauvegardés
+# =====================
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+models/
+saved_models/
+
+# =====================
+# Visualisations / graphiques
+# =====================
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.html
+figures/
+plots/
+images/
+
+# =====================
+# Environnement Python
+# =====================
+venv/
+env/
+.venv
+virtualenv/
+myenv/
+ENV/
+env/
+pythonenv/
+
+# =====================
+# VS Code / IDE
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =====================
+# Jupyter
+# =====================
+.nbgrader/
+jupyter_notebook_config.py
+
+# =====================
+# Logs
+# =====================
+*.log
+*.tmp
+*.temp
+logs/
+
+# =====================
+# Fichiers sensibles
+# =====================
+*.key
+*.pem
+secrets.json
+config.local.py
+.env.local
+.env
+
+# =====================
+# Tests
+# =====================
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
